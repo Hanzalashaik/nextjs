@@ -1,6 +1,7 @@
 import React from "react";
 
-function MyProfile() {
+function MyProfile({ params }) {
+  console.log(params);
   return <div>MyProfile</div>;
 }
 
